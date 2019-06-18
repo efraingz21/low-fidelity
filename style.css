@@ -1,22 +1,22 @@
 /* Style the video: 100% width and height to cover the entire window */
   body {
     background: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, Helvetica, sans-serif
 }
   .glow {
-    font-size: 80px;
-    color: #fff;
+    font-size: 50px;
+    color: rgb(232, 233, 253);
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      text-shadow: 0 0 10px #6452ff, 0 0 20px #6452ff, 0 0 30px #0300a0, 0 0 40px #0300a0, 0 0 50px #0300a0, 0 0 60px #0300a0, 0 0 70px #0300a0;
     }
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      text-shadow: 0 0 20px #6452ff, 0 0 30px #2008fb, 0 0 40px #2008fb, 0 0 50px #2008fb, 0 0 60px #2008fb, 0 0 70px #2008fb, 0 0 80px #2008fb;
     }
   }
 
