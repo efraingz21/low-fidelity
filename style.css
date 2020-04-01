@@ -6,7 +6,7 @@ body {
   background-image: url('https://media.giphy.com/media/3o7qE2KFaCY1xVIqu4/giphy.gif');
   background-size: cover;
   
-  height: 0;
+  height: 100vh;
   padding:0;
   margin:0;
 }
