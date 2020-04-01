@@ -1,7 +1,14 @@
 /* Style the video: 100% width and height to cover the entire window */
-  body {
-    background: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Times, serif
+body {
+  background: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Times, serif;
+
+  background-image: url('https://media.giphy.com/media/3o7qE2KFaCY1xVIqu4/giphy.gif');
+  background-size: cover;
+  
+  height: 0;
+  padding:0;
+  margin:0;
 }
   .glow {
     font-size: 50px;
@@ -11,13 +18,13 @@
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
 }
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #6452ff, 0 0 20px #6452ff, 0 0 30px #0300a0, 0 0 40px #0300a0, 0 0 50px #0300a0, 0 0 60px #0300a0, 0 0 70px #0300a0;
-    }
-    to {
-      text-shadow: 0 0 20px #6452ff, 0 0 30px #2008fb, 0 0 40px #2008fb, 0 0 50px #2008fb, 0 0 60px #2008fb, 0 0 70px #2008fb, 0 0 80px #2008fb;
-    }
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px purple, 0 0 30px rgb(255, 53, 154), 0 0 40px rgb(255, 53, 154), 0 0 50px rgb(255, 53, 154), 0 0 60px rgb(255, 53, 154), 0 0 70px rgb(255, 53, 154), 0 0 80px rgb(255, 53, 154);
   }
+  to {
+    text-shadow: 0 0 10px hotpink, 0 0 20px hotpink, 0 0 30px rgb(255, 53, 154), 0 0 40px rgb(255, 53, 154), 0 0 50px rgb(255, 53, 154), 0 0 60px rgb(255, 53, 154), 0 0 70px rgb(255, 53, 154);
+  }
+}
 
   
